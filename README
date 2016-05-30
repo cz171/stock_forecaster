@@ -1,0 +1,57 @@
+<======================================GENERAL INFORMATION======================================>
+
+16 : 332 : 568 Spring 2015
+Group #4
+Author : Chengguang Xu
+	 Jian Ren
+	 Yan Kang
+	 Yue Song
+	 Zhan Chen 
+
+All source code and required data store in [code] folder.
+
+<======================================DEVELOP ENVIROMENT======================================>
+
+Operating System : Ubuntu 14.04
+Server Stack : Linux, Apache, MySQL, PHP(LAMP)
+Library for Python:
+	[csv] [numpy] [scipy] [pymysql] [matplotlib] [lasagne] [nolearn] [json] [sys]
+
+<============================================FUNCTION============================================>
+
+|-sign up
+|----sign in
+|-sign out
+|-index.php
+|-services.php
+|----drawfigure.php
+|-predict.php
+|----tablelist.php
+|--------StockNet.py
+|----shortterm.php
+|--------curve_fitting.py
+|-contact.html
+
+<=========================================FILE STRUCTURE=========================================>
+
+[code]([] indicates folder) ------------------------- Source code and relative data of the project 
+	[classes] ----------------------------------- Encript password and store username into database
+	[css] --------------------------------------- CSS for webpage
+	[css_pirobox] ------------------------------- CSS-support material
+	[images] ------------------------------------ Images used in pages
+	[includes] ---------------------------------- Database config for login system
+	[js] ---------------------------------------- Javascript and JQuery used in the project
+	[layout] ------------------------------------ Header and footer in login pages
+	[Prediction] -------------------------------- Python script called to predict stock price	
+	about.html ---------------------------------- Introduction for the application
+	contact.html -------------------------------- Contact information of team members
+	db.sql -------------------------------------- SQL command for creating user info database
+	drawfigure.php ------------------------------ Draw figure for historical data
+	index.php ----------------------------------- Index page
+	login.php ----------------------------------- Login to the system 
+	register.php -------------------------------- Register page
+	service.php --------------------------------- Query from historical data
+	shortterm.php ------------------------------- Imported for short term prediction
+	tablelist.php ------------------------------- Imported for long term prediction
+
+
